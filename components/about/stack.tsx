@@ -12,22 +12,26 @@ type Chip = {
 };
 
 const CHIPS: Chip[] = [
-  {
-    label: "Figma",
-    slug: "figma",
-    bg: "#1f1f1f",
-    fg: "#ffffff",
-    iconUrl: "https://svgl.app/library/figma.svg",
-  },
-  { label: "React", slug: "react", bg: "#1FB6CB", fg: "#ffffff" },
+  { label: "Python", slug: "python", bg: "#3776AB", fg: "#ffffff" },
+  { label: "JavaScript", slug: "javascript", bg: "#F7DF1E", fg: "#0a0a0a" },
+  { label: "TypeScript", slug: "typescript", bg: "#3178C6", fg: "#ffffff" },
+  { label: "Java", slug: "openjdk", bg: "#ED8B00", fg: "#ffffff" },
+  { label: "PHP", slug: "php", bg: "#777BB4", fg: "#ffffff" },
+  { label: "React", slug: "react", bg: "#087EA4", fg: "#ffffff" },
   { label: "Next.js", slug: "nextdotjs", bg: "#1f1f1f", fg: "#ffffff" },
-  { label: "TypeScript", slug: "typescript", bg: "#2F74C0", fg: "#ffffff" },
-  { label: "shadcn/ui", slug: "shadcnui", bg: "#5b54ff", fg: "#ffffff" },
-  { label: "Cursor", slug: "cursor", bg: "#111111", fg: "#ffffff" },
-  { label: "GSAP", slug: "gsap", bg: "#0AE448", fg: "#0a0a0a" },
-  { label: "GitHub", slug: "github", bg: "#181717", fg: "#ffffff" },
-  { label: "Vercel", slug: "vercel", bg: "#0a0a0a", fg: "#ffffff" },
-  { label: "Tailwind CSS", slug: "tailwindcss", bg: "#2BBCF5", fg: "#ffffff" },
+  { label: "Tailwind CSS", slug: "tailwindcss", bg: "#06B6D4", fg: "#ffffff" },
+  { label: "Node.js", slug: "nodedotjs", bg: "#5FA04E", fg: "#ffffff" },
+  { label: "FastAPI", slug: "fastapi", bg: "#009688", fg: "#ffffff" },
+  { label: "PostgreSQL", slug: "postgresql", bg: "#4169E1", fg: "#ffffff" },
+  { label: "MongoDB", slug: "mongodb", bg: "#47A248", fg: "#ffffff" },
+  { label: "Docker", slug: "docker", bg: "#2496ED", fg: "#ffffff" },
+  { label: "Git", slug: "git", bg: "#F05032", fg: "#ffffff" },
+  { label: "Linux", slug: "linux", bg: "#FCC624", fg: "#0a0a0a" },
+  { label: "Airflow", slug: "apacheairflow", bg: "#017CEE", fg: "#ffffff" },
+  { label: "Pandas", slug: "pandas", bg: "#150458", fg: "#ffffff" },
+  { label: "scikit-learn", slug: "scikitlearn", bg: "#F7931E", fg: "#0a0a0a" },
+  { label: "TensorFlow", slug: "tensorflow", bg: "#FF6F00", fg: "#0a0a0a" },
+  { label: "PyTorch", slug: "pytorch", bg: "#EE4C2C", fg: "#ffffff" },
 ];
 
 const CHIP_RADIUS = 14;

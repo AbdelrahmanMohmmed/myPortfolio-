@@ -1,4 +1,4 @@
-import { Mail } from "lucide-react";
+import { Github, Mail, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import type { ReactNode } from "react";
@@ -42,19 +42,24 @@ export function ContactCard(): ReactNode {
               <div className="border-foreground/8 flex flex-col items-center justify-center gap-6 rounded-[1.1rem] border bg-background p-6 sm:p-8">
                 <div className="flex items-center gap-3 opacity-75">
                   <SocialIcon
-                    href="mailto:hello@example.com"
+                    href="mailto:abdulrahmanmohmmed376@gmail.com"
                     label="Email"
                     lucideIcon={Mail}
                   />
                   <SocialIcon
-                    href="https://www.linkedin.com"
+                    href="https://www.linkedin.com/in/abdulrahman-mohammed2003"
                     label="LinkedIn"
                     imageSrc="/linkedin.svg"
                   />
                   <SocialIcon
-                    href="https://x.com"
-                    label="X"
-                    imageSrc="/x.svg"
+                    href="https://github.com/AbdelrahmanMohmmed"
+                    label="GitHub"
+                    lucideIcon={Github}
+                  />
+                  <SocialIcon
+                    href="tel:+201211824202"
+                    label="Phone"
+                    lucideIcon={Phone}
                   />
                 </div>
                 <div className="flex flex-col items-center gap-1 text-center">
@@ -62,7 +67,7 @@ export function ContactCard(): ReactNode {
                     2026 &copy; Built with Next.js
                   </p>
                   <p className="text-[12px] tracking-tight text-foreground/45">
-                    By React Bits Pro
+                    By Abdelrahman Mohammed
                   </p>
                 </div>
               </div>

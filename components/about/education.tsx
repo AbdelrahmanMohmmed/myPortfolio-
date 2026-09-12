@@ -9,19 +9,32 @@ type Entry = {
 
 const ENTRIES: Entry[] = [
   {
-    school: "Rhode Island School of Design",
-    degree: "BFA, Graphic Design",
-    period: "2013 – 2017",
+    school: "Alexandria University",
+    degree: "B.Sc. in Computing and Data Science",
+    period: "2022 – 2026",
   },
   {
-    school: "Stanford University",
-    degree: "HCI Certificate, d.school",
-    period: "2018",
+    school: "Scrimba",
+    degree: "Full Stack Developer Path (108 hrs)",
+    period: "2024 – 2025",
+    slug: "scrimba",
   },
   {
-    school: "Bruno Simon's Three.js Journey",
-    degree: "WebGL & Shaders",
-    period: "2022",
+    school: "Digital Egypt Pioneers Initiative",
+    degree: "DEPI Data Engineering Track",
+    period: "2024 – 2025",
+  },
+  {
+    school: "DataCamp",
+    degree: "Data Scientist Professional Track",
+    period: "2024",
+    slug: "datacamp",
+  },
+  {
+    school: "DataCamp",
+    degree: "Machine Learning Scientist Track",
+    period: "2025",
+    slug: "datacamp",
   },
 ];
 
